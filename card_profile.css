@@ -1,0 +1,105 @@
+
+  html,body {  
+    height: 100%;
+    width: 100%;  
+    background: rgb(238,174,202);
+    background: linear-gradient(170deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+  div .flex-container > p {
+    font-size: 16px;
+    margin-left: 50px;
+  }
+ #grad
+ {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+img {
+    border-radius: 50%;
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-left: 170px;
+    margin-right: 200px;
+
+  }
+  
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 100px;
+    padding: 20px;
+    font-size: 30px;
+  }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  .fa-instagram {
+    background: rgb(228,10,212);
+    background: linear-gradient(104deg, rgba(228,10,212,1) 0%, rgba(252,176,69,1) 98%);
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
+  .links {
+    display: flex;
+  }
+  .links > div {
+    margin: auto;
+    padding : 10px;
+    height: 100%;
+    font-size: 30px;
+}
+#box
+ {
+    
+    margin :auto ;
+    margin-top: 70px;
+    width: 450px;
+    height: 100px;
+    border-radius: 25px;
+    background: rgba( 255, 255, 255, 0.01 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
